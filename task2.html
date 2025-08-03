@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Interactive Project</title>
+  <link rel="stylesheet" href="style2.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-title">
+      <h1>Task-2: Intermediate HTML, CSS & JavaScript</h1>
+      <p>Web Development Tasks at ApexPlanet Software Pvt Ltd</p>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+
+    <!-- Contact Form -->
+    <section id="contact" class="active glass-card">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <div class="input-group">
+          <input type="text" id="fullName" placeholder="Full Name *" required />
+        </div>
+
+        <div class="input-group">
+          <input type="email" id="email" placeholder="Email Address *" required />
+        </div>
+
+        <div class="input-group">
+          <input type="text" id="phone" placeholder="Phone Number *" required />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- To-Do List -->
+    <section id="todo" class="glass-card">
+      <h2>My Tasks</h2>
+      <div class="input-group">
+        <input type="text" id="taskInput" placeholder="New Task" />
+      </div>
+      <button onclick="addTask()">Add Task</button>
+      <ul id="taskList"></ul>
+    </section>
+
+    <!-- Image Gallery -->
+    <section id="gallery" class="glass-card">
+      <h2>My Gallery</h2>
+      <div class="input-group">
+        <input type="text" id="imageUrl" placeholder="Paste Image URL" />
+      </div>
+      <button onclick="addImage()">Add Image</button>
+      <div id="imageList" class="image-grid"></div>
+    </section>
+
+  </div>
+
+  <script src="task2.js"></script>
+</body>
+</html>
