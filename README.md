@@ -71,8 +71,9 @@ B.Tech CSE (AI & ML) | Sanskriti University
 
 
 🌍 Live Preview
-👉<a href=(http://127.0.0.1:3000/task2.html)><strong>Click here to visit live project</a>
+👉 [click here to visit live project](http://127.0.0.1:3000/task2.html)
 
 🖼 Preview Screenshot
 
 ![alt text](<Screenshot 2025-08-02 100919-1.png>)
+
